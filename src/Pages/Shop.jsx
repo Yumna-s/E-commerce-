@@ -1,14 +1,19 @@
 import React from "react";
 import NewCollections from "../Components/NewCollection/NewCollections";
+import Hero from "../Components/Hero/Hero.jsx";
+import Popular from "../Components/Popular/Popular";
+import Offers from "../Components/Offers/Offers";
+import NewsLetter from "../Components/NewsLetter/NewsLetter.jsx";
 
 function Shop() {
   return (
     <div>
       <Hero />
 
-      <PoPular />
+      <Popular />
       <Offers />
       <NewCollections />
+      <NewsLetter />
     </div>
   );
 }
