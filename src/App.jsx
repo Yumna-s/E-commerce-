@@ -10,7 +10,7 @@ import Cart from "./Pages/Cart.jsx";
 import LoginSignup from "./Pages/LoginSignup.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import men_banner from "./Assets/banner_mens.png";
-import women_banner from "./Assets/banner_women .png";
+import women_banner from "./Assets/banner_women.png";
 import kid_banner from "./Assets/banner_kids.png";
 function App() {
   return (

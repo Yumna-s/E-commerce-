@@ -1,7 +1,7 @@
 import React from "react";
 import "./NewCollections.css";
 import new_collection from "../../Assets/new_collections.js";
-import Item from "../../Item/Item.jsx";
+import Item from "../item/item.jsx";
 
 function NewCollections() {
   return (
