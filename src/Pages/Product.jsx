@@ -1,4 +1,10 @@
 import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
+import Breadcrums from "../Components/Breadcrums/Breadcrums";
+
+import ProductDisplay from "../Components/productDisplay/ProductDisplay";
+import RelatedProducts from "../Components/RelatedProducts/RelatedProducts";
+
 import { ShopContext } from "../Context/ShopContext";
 
 function Product() {
@@ -7,7 +13,9 @@ function Product() {
   const product = all_product.find((e) => e.id === Number(productId));
   return (
     <div>
-      <Breakcrum product={product} />
+      <Breadcrums product={product} />
+      <ProductDisplay product={product} />
+      <RelatedProducts />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import NewCollections from "../Components/NewCollection/NewCollections";
 import Hero from "../Components/Hero/Hero.jsx";
-import Popular from "../Components/Popular/Popular";
+import Popular from "../Components/popular/popular";
 import Offers from "../Components/Offers/Offers";
 import NewsLetter from "../Components/NewsLetter/NewsLetter.jsx";
 
